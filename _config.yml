@@ -11,6 +11,23 @@ author: more
 language: zh-CN
 timezone: ''
 
+author_status:
+  enable: true
+  # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
+  statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
+  skills:
+    - 🏋🏻‍♀️ 健身撸铁爱好者
+    - 🎸 村里弹棉花二把手
+    - 🏃 脚踏实地行动派
+
+# Favicon（网站图标）
+favicon: /favicon.ico
+
+# Avatar (头像)
+avatar:
+  img: https://avatars.githubusercontent.com/u/38551485?v=4
+  effect: false
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://aihjq520.github.io/
@@ -68,6 +85,19 @@ index_generator:
 default_category: uncategorized
 category_map:
 tag_map:
+
+
+# Loading Animation (加载动画)
+preloader:
+  enable: true
+  # source
+  # 1. fullpage-loading
+  # 2. pace (progress bar)
+  # else all
+  source: 3
+  # pace theme (see https://codebyzach.github.io/pace/)
+  pace_css_url:
+  avatar: https://avatars.githubusercontent.com/u/38551485?v=4 # 自定加载动画义头像
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
